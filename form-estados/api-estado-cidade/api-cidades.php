@@ -1,7 +1,7 @@
 <?php
 
 //CONEXÃO MYSQL
-include '../controlers/connect-mysql.php';
+include 'controlers/connect-mysql.php';
 
 
 $el_continente = $_POST['estado'];

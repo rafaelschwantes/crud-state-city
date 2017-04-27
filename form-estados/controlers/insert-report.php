@@ -20,7 +20,7 @@ $selectdb= mysql_select_db($dbname) or die('Erro na conexão');
 //3.1 - se a variável nome estiver, vazia....
 if(empty($nome)){
     //.... exiba um alerta e não execute o insert
-    echo("<script type='text/javascript'> alert('Preencha o campo nome!'); location.href='../../index.php';</script>");
+    echo("<script type='text/javascript'> alert('Preencha o campo nome!'); location.href='../form-estados.php';</script>");
 //3.2 - senão, se a variável estiver preenchida...
 }else {
     //3.3 - execute o insert...
@@ -71,7 +71,7 @@ if(empty($nome)){
     echo "Cidade: " . $cidade . "<br>";
 
     //Botão para voltar à página inicial
-    ?><a href="../../index.php">Sair</a><?php
+    ?><a href="../form-estados.php">Sair</a><?php
 }
 ?>
 

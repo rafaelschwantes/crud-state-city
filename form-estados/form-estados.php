@@ -1,6 +1,6 @@
 <?php
-include "aplication/includes/conect.php";
-include "aplication/includes/conect-test.php";
+include "../form-estados/includes/conect.php";
+include "../form-estados/includes/conect-test.php";
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +28,7 @@ include "aplication/includes/conect-test.php";
 
 <body>
 <div class="box-body">
-        <form name="formulario" id="formulario" action='aplication/controlers/insert-report-include.php' method="POST">
+        <form name="formulario" id="formulario" action='controlers/insert-report-include.php' method="POST">
         <!--form name="formulario" id="formulario" action='insert.php' method="POST" -->
 
 
