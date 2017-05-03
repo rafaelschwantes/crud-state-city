@@ -25,8 +25,8 @@
       <file leaf-file-name="form-estados.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form-estados/form-estados.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="80">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -35,36 +35,83 @@
       <file leaf-file-name="insert-report-include.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form-estados/controlers/insert-report-include.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
-                <marker date="1493824877811" expanded="true" signature="241:292" placeholder="SELECT ds_uf... uf" />
-                <marker date="1493824877811" expanded="true" signature="869:988" placeholder="INSERT INTO `cadastro`... " />
+                <marker date="1493835040225" expanded="true" signature="625:770" placeholder="INSERT INTO `cadastro`... " />
+                <marker date="1493835040225" expanded="true" signature="757:770" placeholder="INSERT INTO `cadastro`... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insert-report.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="insert-report.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/form-estados/controlers/insert-report.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="104" column="2" selection-start-line="104" selection-start-column="2" selection-end-line="104" selection-end-column="2" />
+            <state relative-caret-position="199">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
-                <marker date="1493825525487" expanded="true" signature="1207:1258" placeholder="SELECT ds_uf... uf" />
-                <marker date="1493825525487" expanded="true" signature="1822:1941" placeholder="INSERT INTO `cadastro`... " />
-                <marker date="1493825525487" expanded="true" signature="2672:2719" placeholder="SELECT * FRO... cadastro" />
+                <marker date="1493835365059" expanded="true" signature="1253:1304" placeholder="SELECT ds_uf... uf" />
+                <marker date="1493835365059" expanded="true" signature="1489:1551" placeholder="SELECT cd_ci... cidades" />
+                <marker date="1493835365059" expanded="true" signature="2120:2241" placeholder="INSERT INTO `cadastro`... " />
+                <marker date="1493835365059" expanded="true" signature="2120:2265" placeholder="INSERT INTO `cadastro`... " />
+                <marker date="1493835365059" expanded="true" signature="2382:2401" placeholder="..." />
+                <marker date="1493835365059" expanded="true" signature="2996:3043" placeholder="SELECT * FRO... cadastro" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connect-mysql.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="recebe-dados-tabela.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/form-estados/includes/recebe-dados-tabela.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report-max-id.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/form-estados/includes/report-max-id.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+              <folding>
+                <marker date="1493824877935" expanded="true" signature="197:244" placeholder="SELECT * FRO... cadastro" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exibe-dados-tabela.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/form-estados/includes/exibe-dados-tabela.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connect-mysql.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form-estados/api-estado-cidade/controlers/connect-mysql.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api-cidades.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/form-estados/api-estado-cidade/api-cidades.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="94" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="94" />
+              <folding>
+                <marker date="1493823786929" expanded="true" signature="118:154" placeholder="SELECT * FRO... cidades" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,13 +166,13 @@
         <option value="$PROJECT_DIR$/form-estados/api-estado-cidade/api-cidades.php" />
         <option value="$PROJECT_DIR$/form-estados/includes/conect.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/form-estados/includes/report-max-id.php" />
+        <option value="$PROJECT_DIR$/form-estados/form-estados.php" />
         <option value="$PROJECT_DIR$/form-estados/includes/recebe-dados-input.php" />
         <option value="$PROJECT_DIR$/form-estados/controlers/insert-report-include.php" />
-        <option value="$PROJECT_DIR$/form-estados/includes/report-max-id.php" />
         <option value="$PROJECT_DIR$/form-estados/includes/recebe-dados-tabela.php" />
         <option value="$PROJECT_DIR$/form-estados/includes/exibe-dados-tabela.php" />
         <option value="$PROJECT_DIR$/form-estados/controlers/insert-report.php" />
-        <option value="$PROJECT_DIR$/form-estados/form-estados.php" />
       </list>
     </option>
   </component>
@@ -362,15 +409,15 @@
       <workItem from="1493301996114" duration="13140000" />
       <workItem from="1493321850986" duration="7094000" />
       <workItem from="1493731166606" duration="15154000" />
-      <workItem from="1493820208925" duration="5689000" />
+      <workItem from="1493820208925" duration="8822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47183000" />
+    <option name="totallyTimeSpent" value="50316000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15357143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -474,9 +521,12 @@
         <state relative-caret-position="1394">
           <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding>
-            <marker date="1493825525487" expanded="true" signature="1207:1258" placeholder="SELECT ds_uf... uf" />
-            <marker date="1493825525487" expanded="true" signature="1822:1941" placeholder="INSERT INTO `cadastro`... " />
-            <marker date="1493825525487" expanded="true" signature="2672:2719" placeholder="SELECT * FRO... cadastro" />
+            <marker date="1493835365059" expanded="true" signature="1253:1304" placeholder="SELECT ds_uf... uf" />
+            <marker date="1493835365059" expanded="true" signature="1489:1551" placeholder="SELECT cd_ci... cidades" />
+            <marker date="1493835365059" expanded="true" signature="2120:2241" placeholder="INSERT INTO `cadastro`... " />
+            <marker date="1493835365059" expanded="true" signature="2120:2265" placeholder="INSERT INTO `cadastro`... " />
+            <marker date="1493835365059" expanded="true" signature="2382:2401" placeholder="..." />
+            <marker date="1493835365059" expanded="true" signature="2996:3043" placeholder="SELECT * FRO... cadastro" />
           </folding>
         </state>
       </provider>
@@ -556,9 +606,12 @@
         <state relative-caret-position="374">
           <caret line="22" column="94" selection-start-line="22" selection-start-column="94" selection-end-line="22" selection-end-column="94" />
           <folding>
-            <marker date="1493825525487" expanded="true" signature="1207:1258" placeholder="SELECT ds_uf... uf" />
-            <marker date="1493825525487" expanded="true" signature="1822:1941" placeholder="INSERT INTO `cadastro`... " />
-            <marker date="1493825525487" expanded="true" signature="2672:2719" placeholder="SELECT * FRO... cadastro" />
+            <marker date="1493835365059" expanded="true" signature="1253:1304" placeholder="SELECT ds_uf... uf" />
+            <marker date="1493835365059" expanded="true" signature="1489:1551" placeholder="SELECT cd_ci... cidades" />
+            <marker date="1493835365059" expanded="true" signature="2120:2241" placeholder="INSERT INTO `cadastro`... " />
+            <marker date="1493835365059" expanded="true" signature="2120:2265" placeholder="INSERT INTO `cadastro`... " />
+            <marker date="1493835365059" expanded="true" signature="2382:2401" placeholder="..." />
+            <marker date="1493835365059" expanded="true" signature="2996:3043" placeholder="SELECT * FRO... cadastro" />
           </folding>
         </state>
       </provider>
@@ -567,6 +620,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <marker date="1493328299995" expanded="true" signature="170:192" placeholder="SELECT * FRO... cadastro" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -574,6 +630,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="57" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="57" />
+          <folding>
+            <marker date="1493328299997" expanded="true" signature="122:161" placeholder="SELECT * FRO... cadastro" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -582,8 +641,8 @@
         <state relative-caret-position="459">
           <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding>
-            <marker date="1493824877811" expanded="true" signature="241:292" placeholder="SELECT ds_uf... uf" />
-            <marker date="1493824877811" expanded="true" signature="869:988" placeholder="INSERT INTO `cadastro`... " />
+            <marker date="1493835040225" expanded="true" signature="625:770" placeholder="INSERT INTO `cadastro`... " />
+            <marker date="1493835040225" expanded="true" signature="757:770" placeholder="INSERT INTO `cadastro`... " />
           </folding>
         </state>
       </provider>
@@ -608,6 +667,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493328299995" expanded="true" signature="170:192" placeholder="SELECT * FRO... cadastro" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -669,6 +731,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <marker date="1493328299995" expanded="true" signature="170:192" placeholder="SELECT * FRO... cadastro" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -676,6 +741,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="57" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="57" />
+          <folding>
+            <marker date="1493328299997" expanded="true" signature="122:161" placeholder="SELECT * FRO... cadastro" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form-estados/includes/conect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form-estados/api-estado-cidade/controlers/connect-mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form-estados/api-estado-cidade/api-cidades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="94" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="94" />
+          <folding>
+            <marker date="1493823786929" expanded="true" signature="118:154" placeholder="SELECT * FRO... cidades" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form-estados/form-estados.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -687,30 +789,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form-estados/includes/recebe-dados-input.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/form-estados/api-estado-cidade/api-estados.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <marker date="1493753148900" expanded="true" signature="83:99" placeholder="SELECT * FRO... uf" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form-estados/api-estado-cidade/api-cidades.php">
+    <entry file="file://$PROJECT_DIR$/form-estados/includes/recebe-dados-input.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1493834889715" expanded="true" signature="234:285" placeholder="SELECT ds_uf... uf" />
+            <marker date="1493834889715" expanded="true" signature="470:532" placeholder="SELECT cd_ci... cidades" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form-estados/controlers/insert-report-include.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="94" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="94" />
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <marker date="1493823786929" expanded="true" signature="118:154" placeholder="SELECT * FRO... cidades" />
+            <marker date="1493835040225" expanded="true" signature="625:770" placeholder="INSERT INTO `cadastro`... " />
+            <marker date="1493835040225" expanded="true" signature="757:770" placeholder="INSERT INTO `cadastro`... " />
           </folding>
         </state>
       </provider>
@@ -728,63 +834,31 @@
     <entry file="file://$PROJECT_DIR$/form-estados/includes/exibe-dados-tabela.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form-estados/includes/conect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/form-estados/includes/recebe-dados-tabela.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form-estados/form-estados.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form-estados/controlers/insert-report-include.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <marker date="1493824877811" expanded="true" signature="241:292" placeholder="SELECT ds_uf... uf" />
-            <marker date="1493824877811" expanded="true" signature="869:988" placeholder="INSERT INTO `cadastro`... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/form-estados/controlers/insert-report.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="104" column="2" selection-start-line="104" selection-start-column="2" selection-end-line="104" selection-end-column="2" />
+        <state relative-caret-position="199">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
-            <marker date="1493825525487" expanded="true" signature="1207:1258" placeholder="SELECT ds_uf... uf" />
-            <marker date="1493825525487" expanded="true" signature="1822:1941" placeholder="INSERT INTO `cadastro`... " />
-            <marker date="1493825525487" expanded="true" signature="2672:2719" placeholder="SELECT * FRO... cadastro" />
+            <marker date="1493835365059" expanded="true" signature="1253:1304" placeholder="SELECT ds_uf... uf" />
+            <marker date="1493835365059" expanded="true" signature="1489:1551" placeholder="SELECT cd_ci... cidades" />
+            <marker date="1493835365059" expanded="true" signature="2120:2241" placeholder="INSERT INTO `cadastro`... " />
+            <marker date="1493835365059" expanded="true" signature="2120:2265" placeholder="INSERT INTO `cadastro`... " />
+            <marker date="1493835365059" expanded="true" signature="2382:2401" placeholder="..." />
+            <marker date="1493835365059" expanded="true" signature="2996:3043" placeholder="SELECT * FRO... cadastro" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form-estados/api-estado-cidade/controlers/connect-mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
