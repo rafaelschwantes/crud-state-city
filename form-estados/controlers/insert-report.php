@@ -12,11 +12,13 @@
 # Informa qual o conjunto de caracteres será usado.
 header('Content-Type: text/html; charset=utf-8');
 
+// 1 - RECEBER OS DADOS DOS INPUTS DIGITADOS NO FORMULÁRIO VIA MÉTODO POST
+$nome=$_POST["nome"];
+$idestado=$_POST["estados"];
+$cidade=$_POST["cidades"];
 
 
-
-
-// 1 - FAZER A CONEXÃO COM O BANCO DE DADOS
+// 2 - FAZER A CONEXÃO COM O BANCO DE DADOS
 $host="localhost";
 $user="root";
 $pass="";
@@ -31,22 +33,11 @@ mysql_query('SET character_set_connection=utf8');
 mysql_query('SET character_set_client=utf8');
 mysql_query('SET character_set_results=utf8');
 
-// 2 - RECEBER OS DADOS DOS INPUTS DIGITADOS NO FORMULÁRIO VIA MÉTODO POST
-$nome=$_POST["nome"];
-$idestado=$_POST["estados"];
-$cidade=$_POST["cidades"];
 
-// 1.1 - Configurando id_estado e id_cidade
 $sqlNomeEstado = mysql_query("SELECT ds_uf_nome FROM uf WHERE cd_uf = '$idestado';") or die(mysql_error());
 $num = mysql_num_rows($sqlNomeEstado);
 while ($row = mysql_fetch_array($sqlNomeEstado)){
     $nomeEstado = $row['ds_uf_nome'];
-}
-
-$sqlIdCidade = mysql_query("SELECT cd_cidade FROM cidades WHERE ds_cidade_nome = '$cidade';") or die(mysql_error());
-$num = mysql_num_rows($sqlIdCidade);
-while ($rowCidade = mysql_fetch_array($sqlIdCidade)){
-    $idCidade = $rowCidade['cd_cidade'];
 }
 
 
@@ -59,7 +50,7 @@ if(empty($nome)){
 //3.2 - senão, se a variável estiver preenchida...
 }else {
     //3.3 - execute o insert...
-    $insert = "INSERT INTO `cadastro` (`nome`, `id_estado`,`estado`, `id_cidade`, `cidade`) VALUES ('$nome', '$idestado', '$nomeEstado', '$idCidade', '$cidade')";
+    $insert = "INSERT INTO `cadastro` (`nome`, `id_estado`,`estado`, `cidade`) VALUES ('$nome', '$idestado', '$nomeEstado', '$cidade')";
     mysql_query($insert, $conexao);
 
     //3.4 - EMITIR UMA MENSAGEM DE CONFIRMAÇÃO DO CADASTRO
@@ -95,18 +86,15 @@ if(empty($nome)){
     //4.4 - Recebendo todos os registros da tabela
     $id = $registro['id'];
     $nome = $registro['nome'];
-    $cdEstado = $registro['id_estado'];
     $estado =$registro['estado'];
-    $cdCidade = $registro['cd_cidade'];
     $cidade = $registro['cidade'];
 
     //4.5 - Visualizando todos os registros recebidos
     echo "<br>";
     echo "id = " . $id . "<br>";
     echo "Nome completo: " . $nome . "<br>";
-    echo "Cód. Estado: " . $cdEstado . "<br>";
+    echo "Cód. Estado: " . $idestado . "<br>";
     echo "Estado: " . $nomeEstado . "<br>";
-    echo "Cód. Cidade: " . $cdCidade . "<br>";
     echo "Cidade: " . $cidade . "<br>";
 
 

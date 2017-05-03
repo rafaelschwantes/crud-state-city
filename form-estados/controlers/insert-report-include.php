@@ -1,9 +1,17 @@
  <?php
- // 1 - FAZER A CONEXÃO COM O BANCO DE DADOS
+ // 1 - RECEBER OS DADOS DOS INPUTS DIGITADOS NO FORMULÁRIO VIA MÉTODO POST
+include '../includes/recebe-dados-input.php';
+
+ // 2 - FAZER A CONEXÃO COM O BANCO DE DADOS
 include '../includes/conect.php';
 
- // 2 - RECEBER OS DADOS DOS INPUTS DIGITADOS NO FORMULÁRIO VIA MÉTODO POST
- include '../includes/recebe-dados-input.php';
+ $sqlNomeEstado = mysql_query("SELECT ds_uf_nome FROM uf WHERE cd_uf = '$idestado';") or die(mysql_error());
+ $num = mysql_num_rows($sqlNomeEstado);
+ while ($row = mysql_fetch_array($sqlNomeEstado)){
+     $nomeEstado = $row['ds_uf_nome'];
+ }
+
+
 
  // 3 - INSERIR OS DADOS NA TABELA VIA MYSQL COM UMA CONDIÇÃO
 
@@ -14,7 +22,7 @@ include '../includes/conect.php';
 //3.2 - senão, se a variável estiver preenchida...
  }else {
      //3.3 - execute o insert...
-     $insert = "INSERT INTO `cadastro` (`nome`, `id_estado`,`estado`, `id_cidade`, `cidade`) VALUES ('$nome', '$idestado', '$nomeEstado', '$idCidade', '$cidade')";
+     $insert = "INSERT INTO `cadastro` (`nome`, `id_estado`,`estado`, `cidade`) VALUES ('$nome', '$idestado', '$nomeEstado', '$cidade')";
      mysql_query($insert, $conexao);
 
      //3.4 - EMITIR UMA MENSAGEM DE CONFIRMAÇÃO DO CADASTRO
