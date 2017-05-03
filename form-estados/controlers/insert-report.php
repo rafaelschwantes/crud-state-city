@@ -1,10 +1,22 @@
+<!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta charset="utf-8"/>
+</head>
+<body--
+
 <!-- INÍCIO DO INSERT =============================================================================================================================== -->
 <?php
+# Informa qual o conjunto de caracteres será usado.
+header('Content-Type: text/html; charset=utf-8');
 
 // 1 - RECEBER OS DADOS DOS INPUTS DIGITADOS NO FORMULÁRIO VIA MÉTODO POST
 $nome=$_POST["nome"];
-$estado=$_POST["estados"];
+$idestado=$_POST["estados"];
 $cidade=$_POST["cidades"];
+
 
 // 2 - FAZER A CONEXÃO COM O BANCO DE DADOS
 $host="localhost";
@@ -15,6 +27,20 @@ $dbname="estado-cidade-cad-cons";
 $conexao=  @mysql_connect($host, $user, $pass)  or die('erro na conexão');
 $selectdb= mysql_select_db($dbname) or die('Erro na conexão');
 
+# Aqui está o segredo
+mysql_query("SET NAMES 'utf8'");
+mysql_query('SET character_set_connection=utf8');
+mysql_query('SET character_set_client=utf8');
+mysql_query('SET character_set_results=utf8');
+
+
+$sqlNomeEstado = mysql_query("SELECT ds_uf_nome FROM uf WHERE cd_uf = '$idestado';") or die(mysql_error());
+$num = mysql_num_rows($sqlNomeEstado);
+while ($row = mysql_fetch_array($sqlNomeEstado)){
+    $nomeEstado = $row['ds_uf_nome'];
+}
+
+
 // 3 - INSERIR OS DADOS NA TABELA VIA MYSQL COM UMA CONDIÇÃO
 
 //3.1 - se a variável nome estiver, vazia....
@@ -24,7 +50,7 @@ if(empty($nome)){
 //3.2 - senão, se a variável estiver preenchida...
 }else {
     //3.3 - execute o insert...
-    $insert = "INSERT INTO `cadastro` (`nome`, `estado`, `cidade`) VALUES ('$nome', '$estado', '$cidade')";
+    $insert = "INSERT INTO `cadastro` (`nome`, `id_estado`,`estado`, `cidade`) VALUES ('$nome', '$idestado', '$nomeEstado', '$cidade')";
     mysql_query($insert, $conexao);
 
     //3.4 - EMITIR UMA MENSAGEM DE CONFIRMAÇÃO DO CADASTRO
@@ -60,20 +86,22 @@ if(empty($nome)){
     //4.4 - Recebendo todos os registros da tabela
     $id = $registro['id'];
     $nome = $registro['nome'];
-    $estado = $registro['estado'];
+    $estado =$registro['estado'];
     $cidade = $registro['cidade'];
 
     //4.5 - Visualizando todos os registros recebidos
     echo "<br>";
     echo "id = " . $id . "<br>";
     echo "Nome completo: " . $nome . "<br>";
-    echo "Estado: " . $estado . "<br>";
+    echo "Cód. Estado: " . $idestado . "<br>";
+    echo "Estado: " . $nomeEstado . "<br>";
     echo "Cidade: " . $cidade . "<br>";
+
 
     //Botão para voltar à página inicial
     ?><a href="../form-estados.php">Sair</a><?php
 }
 ?>
-
+<!--/body></html-->
 
 

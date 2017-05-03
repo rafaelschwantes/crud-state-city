@@ -3,6 +3,7 @@
 echo "<br>";
 echo "id = " . $id . "<br>";
 echo "Nome completo: " . $nome . "<br>";
-echo "Estado: " . $estado . "<br>";
+echo "Cód. Estado: " . $idestado . "<br>";
+echo "Estado: " . $nomeEstado . "<br>";
 echo "Cidade: " . $cidade . "<br>";
 ?>

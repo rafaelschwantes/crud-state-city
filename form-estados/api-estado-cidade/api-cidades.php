@@ -15,7 +15,7 @@ echo '<option value="">Selecione a cidade</option>';
 $cidades = mysql_query($sql_cidades);
 while($row_cidades = mysql_fetch_assoc($cidades)){
 
-	echo '<option value="'.$row_cidades['ds_cidade_nome'].'">'. utf8_encode($row_cidades['ds_cidade_nome']).'</option>';
+	echo '<option value="'.$row_cidades['ds_cidade_nome'].'">'. $row_cidades['ds_cidade_nome'].'</option>';
 }
 
 ?>

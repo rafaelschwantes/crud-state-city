@@ -6,6 +6,7 @@ include 'controlers/connect-mysql.php';
 
 
 
+
 $sel_estado = "SELECT * FROM uf";
 echo '<option value="">Selecione o estado</option>';
 
