@@ -97,7 +97,7 @@ if(empty($nome)){
     $nome = $registro['nome'];
     $cdEstado = $registro['id_estado'];
     $estado =$registro['estado'];
-    $cdCidade = $registro['cd_cidade'];
+    $cdCidade = $registro['id_cidade'];
     $cidade = $registro['cidade'];
 
     //4.5 - Visualizando todos os registros recebidos
